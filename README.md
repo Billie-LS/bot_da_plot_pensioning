@@ -1,12 +1,14 @@
+![image4](images/image4.png)
 # **Columbia University Engineering, New York FinTech BootCamp** 
 # **August 2022 Cohort**
+## *Module 15, Challenge -  Data Science, Cloud Computing, Machine Learning, & Natural Language Processing (NLP)  -  'robo' advisor*
+![image1](images/image2.png)
 
-![image1](images/image1.png)
-## *Module 13, Challenge -  Data Science & Machine Learning - Neural Networks, DeepLearning*
 Objective - Compile and Evaluate a Binary Classification Model using a Neural Network that predicts if applicants will be successful if funded through venture capital firm. 
 
 Scenario - Given a historical dataset CSV file containing more than 34,000 organizations that have received funding, employ neural network knowledge to evaluate dataset features and create a binary classifier model that will predict an applicant will become a successful or failed business.  
-
+![image1](images/image3.png)
+![image1](images/image1.png)
 Product - Jupyter notebook with -
 
 * > Data preprocessing for a neural network model.
@@ -209,6 +211,15 @@ None
 
 ___
 
+### **Images utilized**
+
+[HeaderImage](https://www.vamsitalkstech.com/architecture/how-robo-advisors-work-23/)
+
+[SmartInvestor](https://www.smartinvestor.com.my/robo-advisor-in-malaysia-8-robo-advisor-platforms-to-choose-from/)
+
+[ITWorldCanada](https://www.itworldcanada.com/article/cloud-services-to-bridge-digital-divide-between-small-and-big-companies-aws-impact-report/503954)
+
+___
 ### **Additional references and or resources utilized**
 
 [Keras](https://keras.io/guides/keras_tuner/getting_started/)
