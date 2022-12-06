@@ -1,0 +1,54 @@
+ 7407  cd Desktop
+ 7408  git clone git@github.com:Billie-LS/bot_da_plot_pensioning.git
+ 7409  code .
+ 7410  conda deactivate
+ 7411  git status
+ 7412  git add .
+ 7413  git add *
+ 7414  git commit -m 'initial script, script reserve, readme boiler, gitignore'
+ 7415  git push
+ 7416  jupyter lab
+ 7417  git status
+ 7418  git add .
+ 7419  git add *
+ 7420  git commit -m 'initial repo build'
+ 7421  git push
+ 7422  conda deactivate
+ 7423  code .
+ 7424  conda deactivate
+ 7425  conda activate machine_learn
+ 7426  jupyter lab
+ 7427  git add .
+ 7428  git add *
+ 7429  git commit -m 'code, qt vids, readme'
+ 7430  git push
+ 7431  conda deactivate
+ 7432  cod3e .
+ 7433  code .
+ 7434  git status
+ 7435  git add .
+ 7436  git commit -m 'clear error'
+ 7437  git push
+ 7438  conda deactivate
+ 7439  jupyter lab
+ 7440  git add .
+ 7441  git add *
+ 7442  git commit -m 'unbroken'
+ 7443  git push
+ 7444  jupyter lab
+ 7445  git status
+ 7446  git add .
+ 7447  git add *
+ 7448  git commit -m 'debug script explore'
+ 7449  git push
+ 7450  conda deactivate
+ 7451  jupyter lab
+ 7452  git add .
+ 7453  git add *
+ 7454  git commit -m 'lambda directory utilize'
+ 7455  git push
+ 7456  conda deactivate
+ 7457  jupyter lab
+ 7458  history 7238 > terminal_history.txt (edited) 
+ 7459  history 7238 > terminal_history.txt
+ 7460  history 7406 > terminal_history.txt
