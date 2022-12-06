@@ -4,98 +4,33 @@
 ## *Module 15, Challenge -  Data Science, Cloud Computing, Machine Learning, & Natural Language Processing (NLP)  -  'robo' advisor*
 ![image1](images/image2.png)
 
-Objective - Compile and Evaluate a Binary Classification Model using a Neural Network that predicts if applicants will be successful if funded through venture capital firm. 
+Objective - Utilize Amazon Web Services (AWS) Lex and Lambda services to produce a prototype 'robo' advisor. 
 
-Scenario - Given a historical dataset CSV file containing more than 34,000 organizations that have received funding, employ neural network knowledge to evaluate dataset features and create a binary classifier model that will predict an applicant will become a successful or failed business.  
-![image1](images/image3.png)
+Scenario - Employed as a digital transformation consultant by a prominent retirement plan provider. You are tasked to increase their client portfolio with particular focus on youth engagement. 
 ![image1](images/image1.png)
-Product - Jupyter notebook with -
+Product -
 
-* > Data preprocessing for a neural network model.
-* > binary classification model using a deep neural network.
-* > Utilize model-fit-predict pattern to compile and evaluate.
-* > Model optimization.
-
----
-## **Methods**
-### The code script analysis performed uses or employs applications of:
-
-    Data encoding with OneHotEncoder, 
-    train_test_split(),
-    Feature Scaling with StandardScaler,
-    keras.callbacks.EarlyStopping(),
-    keras.callbacks.ModelCheckpoint(),
-
-___
-## Challenge - Modeling & Analysis
-### Original 
-
-![image1](images/image2.png)
-![image3](images/image3.png)
-
+* > AWS generated native code.
+* > Lex 'bot'.
+* > Lambda initialization and validation of Lex.
+ 
+![image1](images/image3.png)
 ___
 
-## Challenge - Modeling & Analysis
-### Optimization 
-
-![image4](images/image4.png)
-![image7](images/image7.png)
-![image5](images/image5.png)
-![image6](images/image6.png)
-
-![image8](images/image8a.png)
-![image9](images/image9a.png)
-![image10](images/image10a.png)
-
-![image14](images/image14.png)
-![image15](images/image15.png)
-![image16](images/image16.png)
-
-![image11](images/image11.png)
-![image12](images/image12.png)
-![image13](images/image13.png)
-
-
-___
-
-
-## Supplemental Modeling and Analysis
-
-Supplemental processing and analysis:
-
-Beyond the scope of the assignment, the author sought to conduct additional analysis of the data obtained; supplemental material script with model building follows the primary challenge. Additionally, supplemetal experimental notebooks are included.
-
----
 ## **Technologies**
----
+___
 ### **Dependencies**
 
 This project leverages Jupyter Lab v3.4.4 and Python version 3.9.13 packaged by conda-forge | (main, May 27 2022, 17:01:00) with the following packages:
 
 
-* [sys](https://docs.python.org/3/library/sys.html) - module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
+* [datetime](https://docs.python.org/3/library/datetime.html) - module supplies classes for manipulating dates and times.
 
-* [NumPy](https://numpy.org/doc/stable/user/absolute_beginners.html) - an open source Python library used for working with arrays, contains multidimensional array and matrix data structures with functions for working in domain of linear algebra, fourier transform, and matrices.
+* [relativedelta](https://dateutil.readthedocs.io/en/stable/relativedelta.html) - from dateutil, is designed to be applied to an existing datetime and can replace specific components of that datetime, or represents an interval of time.
 
-* [pandas](https://pandas.pydata.org/docs/) - software library written for the python programming language for data manipulation and analysis.
+* [json](https://docs.python.org/3/library/json.html#module-json) - JSON (JavaScript Object Notation) is a lightweight data interchange format inspired by JavaScript object literal syntax; exposes an API familiar to users of the standard library marshal and pickle modules.
 
-* [Path](https://pandas.pydata.org/docs/reference/api/pandas.concat.html) - from pathlib - Object-oriented filesystem paths, Path instantiates a concrete path for the platform the code is running on.
-
-* [Scikit-learn](https://scikit-learn.org/stable/getting_started.html) - an open source machine learning library that supports supervised and unsupervised learning; provides various tools for model fitting, data preprocessing, model selection, model evaluation, and many other utilities.
-
-* [tensorflow](https://www.tensorflow.org/) - an end-to-end machine learning platform.
-
-* [tf.keras](https://www.tensorflow.org/api_docs/python/tf/keras/Model) - a compact, easy to learn, high-level Python library run on top of TensorFlow framework; made with focus of understanding deep learning techniques, such as creating layers for neural networks maintaining the concepts of shapes and mathematical details.
-
-* [keras](https://keras.io/about/) - a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
-
-* [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) - from sklearn.model_selection, a quick utility that wraps input validation and next(ShuffleSplit().split(X, y)) and application to input data into a single call for splitting (and optionally subsampling) data in a oneliner.
-
-* [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) - from sklearn.preprocessing, encode categorical features as a one-hot numeric array. Features are encoded using a one-hot (aka ‘one-of-K’ or ‘dummy’) encoding scheme; creates a binary column for each category and returns a sparse matrix or dense array.
-
-* [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) - from sklearn.preprocessing, standardize features by removing the mean and scaling to unit variance.
-
-* [matplotlib.pyplot](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html) a state-based interface to matplotlib. It provides an implicit, MATLAB-like, way of plotting. It also opens figures on your screen, and acts as the figure GUI manager
+* [logging](https://docs.python.org/3/howto/logging.html) - is a means of tracking events that happen when some software runs; developer adds logging calls to their code to indicate that certain events have occurred. An event is described by a descriptive message which can optionally contain variable data.
 
 ___
 
@@ -132,24 +67,13 @@ git version 2.37.2
  In the terminal, navigate to directory where you want to install this application from the repository and enter the following command
 
 ```python
-git clone git@github.com:Billie-LS/DeepL_Adventure_Angels.git
+git clone git@github.com:Billie-LS/bot_da_plot_pensioning.git
 ```
 
 ---
 ## **Usage**
 
-From terminal, the installed application is run through jupyter lab web-based interactive development environment (IDE) interface by typing at prompt:
-
-```python
-> jupyter lab
-
-```
-The file you will run is:
-
-```python
-credit_risk_resampling.ipynb
-
-```
+This is an example use of AWS.  Materials can be reviewed through github.
 
 ___
 
@@ -162,7 +86,7 @@ ___
 Version control can be reviewed at:
 
 ```python
-https://github.com/Billie-LS/DeepL_Adventure_Angels
+https://github.com/Billie-LS/bot_da_plot_pensioning
 ```
 
 [repository](https://github.com/Billie-LS/DeepL_Adventure_Angels)
@@ -185,13 +109,6 @@ Vinicio De Sola
     [@GitHub](https://github.com/penpen86)
 
 
-### **Outside instructors**
-Jeff Heaton
-    [LinkedIn](https://www.linkedin.com/in/jeffheaton/)
-    [@GitHub](https://github.com/jeffheaton/t81_558_deep_learning/blob/master/install/tensorflow-install-conda-mac-metal-jul-2022.ipynb)
-    [YouTube](https://www.youtube.com/watch?v=5DgWvU0p2bk)
-
-
 ### **BootCamp teaching assistant**
 
 Santiago Pedemonte
@@ -199,14 +116,11 @@ Santiago Pedemonte
     [@GitHub](https://github.com/Santiago-Pedemonte)
 
 
-### **BootCamp classmates**
-
-None
-
 ### **askBCS assistants**
 
-None
-
+Laanu Adeyeye
+    [LinkedIn]()
+    [@GitHub](https://github.com/Laanu)
 
 
 ___
@@ -222,35 +136,7 @@ ___
 ___
 ### **Additional references and or resources utilized**
 
-[Keras](https://keras.io/guides/keras_tuner/getting_started/)
-
-[Keras](https://keras.io/api/callbacks/model_checkpoint/)
-
-[pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html)
-
-[pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
-
-[PredictiveHacks](https://predictivehacks.com/how-to-prevent-overfitting-in-neural-networks-with-tensorflow-2-0/)
-
-[Stack Overflow](https://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository)
-
-[Stack Overflow](https://stackoverflow.com/questions/51731207/python-neural-network-typeerror-history-object-is-not-subscriptable)
-
-[Stack Overflow](https://stackoverflow.com/questions/51293196/attributeerror-numpy-ndarray-object-has-no-attribute-drop)
-
-[Stack Overflow](https://stackoverflow.com/questions/61742556/valueerror-shapes-none-1-and-none-2-are-incompatible)
-
-[PredictiveHacks](https://predictivehacks.com/how-to-prevent-overfitting-in-neural-networks-with-tensorflow-2-0/)
-
-[TensorFlow](https://www.tensorflow.org/api_docs/python/tf/train/Checkpoint#restorefor)
-
-[TensorFlow](https://www.tensorflow.org/api_docs/python/tf/keras/activations)
-
-[GitHub](https://github.com/christianversloot/machine-learning-articles/blob/main/automating-neural-network-configuration-with-keras-tuner.md)
-
-[GitHub](https://github.com/christianversloot/machine-learning-articles/blob/main/automating-neural-network-configuration-with-keras-tuner.md)
-
-[GitHub](https://github.com/kirpa1986/FinTech-Projects/tree/0f516333ff7acadfd6f63e7c3069dd72f9da5095/Module%2013%20Challenge%20-%20Venture%20Funding%20with%20Deep%20Learning)
+[Stack Overflow](https://stackoverflow.com/questions/67467874/an-error-has-occurred-the-server-encountered-an-error-processing-the-lambda-res)
 
 ___
 ## **License**
